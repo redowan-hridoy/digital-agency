@@ -17,3 +17,139 @@
     background-color: darkgray;
     padding: 8px;
 }
+
+.chest{
+   background-image: url(asset/image/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: overlay;
+   height: 100vh;
+   text-align: center;
+   align-items: center;
+   margin: auto;
+   display: flex;
+   padding-left: 150px;
+
+}
+
+.chest-description{
+    padding: 10px;
+}
+
+.heading{
+    font-size: 70px;
+}
+
+.digital{
+    color: red;
+}
+
+.red{
+    padding: 10px;
+    color: aliceblue;
+    background-color: red;
+    border: none;
+
+}
+
+.white{
+    padding: 10px;
+    color: red;
+    background-color: white;
+    border: black;
+}
+
+.abdomen{
+    background-image: url(asset/image/footer-bg.png);
+    background-color: rgb(65, 62, 62); 
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.abdomen-left{
+    color: aliceblue;
+}
+
+.ahead{
+    font-size: 30px;
+}
+
+.apara{
+    text-align: left;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.alist{
+    list-style: none;
+    padding: 5px;
+    font-weight: 100;
+}
+
+.abdomen-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.abdomen-left{
+    
+}
+
+.firstbox{
+    text-align: center;
+    background-color: white;
+    color: black;
+    gap: 50px;
+    
+}
+
+.secondbox{
+    text-align: center;
+    background-color: white;
+    color: black;
+    gap: 50px;
+}
+.box-right{
+  height: 200px;
+  width: 150px;
+  text-align: center;
+  padding: 25px;
+  border-style:inset;
+  border-color: black;
+  
+}
+
+.box-left{
+    height: 200px;
+  width: 150px;
+  text-align: center;
+  padding: 25px;
+  border-style:inset;
+  border-color: black;
+}
+
+.appointment{
+    background-color: rgb(145, 74, 74);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    color: aliceblue;
+}
+
+.aplogo{
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
+.developer{
+    display: flex;
+    flex-direction: row-reverse;
+}
