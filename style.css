@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menubar{
+    list-style: none;
+    margin-right: 5px;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+    padding: 8px;
+}
