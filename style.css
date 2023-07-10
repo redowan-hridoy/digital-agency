@@ -143,6 +143,7 @@
     align-items: center;
     height: 25vh;
     color: aliceblue;
+    margin: -20px 60px;
 }
 
 .aplogo{
@@ -152,4 +153,44 @@
 .developer{
     display: flex;
     flex-direction: row-reverse;
+}
+.idname{
+    color: aliceblue;
+}
+
+.aurthor{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.aimg{
+    border-radius: 50%;
+    height: 70px;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777373;
+    padding: 50px;
+}
+
+.blog{
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.blogpara{
+    width: 70%;
+    text-align: center;
+    padding-left: 20px;
+}
+.bloghead{
+    max-width: 350px;
+    text-align: center;
 }
